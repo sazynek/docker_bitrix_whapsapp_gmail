@@ -60,8 +60,8 @@ async def new_page(page: Page, context: BrowserContext) -> None:
             if True if CUSTOM_REQUEST_STATE.strip().capitalize() == "True" else False:
                 links_ = await custom_request(page, context)
             for link in links_:
-                if len(global_list) == 4:
-                    break
+                # if len(global_list) == 4:
+                #     break
                 link_title = link[0]
                 link_img = link[1]
                 link_url = link[2]
