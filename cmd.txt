@@ -1,0 +1,3 @@
+docker build . -t kino_parse:v1
+docker run --name kino_parseV1 -i -v kino_parseV1:/app kino_parse:v1 @once=false @recurse=8
+docker start kino_parseV1 

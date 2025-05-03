@@ -1,0 +1,11 @@
+.venv
+__pycache__
+.mypy_cache
+.vscode
+data
+image
+test
+loggers
+main_cook.json
+dev.env
+.env
